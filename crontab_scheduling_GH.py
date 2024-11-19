@@ -4,8 +4,8 @@ import crontab as CronTab
 cron = CronTab.CronTab(user=True)
 
 # Define paths to python and script
-path_to_python = "/path_to_python"
-path_to_script = "/path_to_read_emails_GH.py"
+path_to_python = "/path_to_python" # can be found by executing 'which python3' in the terminal
+path_to_script = "/path_to_read_emails_GH.py" # path to the script you want to run
 command = f"{path_to_python} {path_to_script}"
 
 # Create a new cron job to run the script at 3:30 PM every Monday through Thursday (since Friday is a podcast, and weekend is nothing)
