@@ -23,7 +23,7 @@ def generate_chat_prompt(prompt):
 
 # Define the query parameters to search for unread emails from 'noreply@news.bloomberg.com'
 query_params = {
-    'sender': 'noreply@news.bloomberg.com', # Change this to the email address you want to read emails from
+    'sender': 'email-address', # Change this to the email address you want to read emails from
     "unread": True
 }
 
