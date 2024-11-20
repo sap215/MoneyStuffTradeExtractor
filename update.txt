@@ -1,0 +1,4 @@
+Okay, so it turns out that a cronjob won't run on your computer if your computer is off (I should have realized this sooner). My solution, move all files to a AWS EC2 server, set up a jupyter lab environment on that server, and then run the cronjob on there. This works! 
+
+NOTE: Be sure to cd into your directory that contains your gmail_token.json and client_secret.json files, as these are needed (but not directly called) by read_emails_GH.py
+
