@@ -39,7 +39,7 @@ chatGPT_output = generate_chat_prompt(extracted_prompt)
 # Email subject (to myself)
 email_subject = "Trade Ideas From " + messages[0].subject
 
-# Send an email to myself with the content of the the ChatGPT output
+# Send an email to myself with the content of the ChatGPT output
 gmail.send_message(
     sender='your_gmail_address',
     to='your_gmail_address',
